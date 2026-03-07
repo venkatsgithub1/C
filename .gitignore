@@ -53,3 +53,4 @@ dkms.conf
 *.xml
 *.iml
 .idea/*
+roughwork/
