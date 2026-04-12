@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main(int) {
+int main(void) {
     char strArr[] = "This is a string";
     printf("%s\n", strArr);
     strArr[2] = 'a';
@@ -8,4 +8,5 @@ void main(int) {
     printf("%s\n", strArr);
     strArr[7] = '\0';
     printf("%s\n", strArr);
+    return 0;
 }
