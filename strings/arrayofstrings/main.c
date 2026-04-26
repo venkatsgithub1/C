@@ -6,8 +6,5 @@ int main(void) {
     for (int i = 0; i < len; i++) {
         printf("%s\n", southIndianStates[i]);
     }
-    char *test = "abcd";
-    int len2 = sizeof(test) / sizeof(test[0]);
-    printf("%d\n", len2);
     return 0;
 }
